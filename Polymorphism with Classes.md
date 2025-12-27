@@ -26,7 +26,34 @@ To create two specific classes — `Beans` and `Mango`. Then, create a **generic
 ---
 
 ## 💻 Program
+class Beans:
+    def type(self):
+        print("Vegetable")
+    def color(self):
+        print("Green")
+
+
+class Mango:
+    def type(self):
+        print("Fruit")  
+    def color(self):
+        print("Yellow")
+
+def func(obj):
+    obj.type()
+    obj.color()
+
+beans_obj = Beans()
+mango_obj = Mango()
+
+print("Beans object:")
+func(beans_obj)
+
+print("\nMango object:")
+func(mango_obj)
 
 ## Output
+<img width="569" height="335" alt="image" src="https://github.com/user-attachments/assets/927e6edb-515d-4ece-9b34-b926fd118c3b" />
 
 ## Result
+thus the code excuted sucessfully
